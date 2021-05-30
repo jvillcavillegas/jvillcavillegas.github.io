@@ -56,6 +56,5 @@ Content author (except where otherwise stated) is Emmy Tsang.
 
 ## License
 
-Open sourced under the [MIT license](LICENSE.md).
-
-<3
+Theme is Open sourced under the [MIT license](LICENSE.md).
+Content is open sourced (except where otherwise stated) under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
