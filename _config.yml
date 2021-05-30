@@ -1,15 +1,15 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
-paginate: 1
+title: Emmy Tsang
+tagline:
+url: https://emmyft.github.io
+paginate: 0
 baseurl: ""
 permalink: pretty
 
 # Gems
 plugins:
   - jekyll-gist
-  - jekyll-paginate
+#  - jekyll-paginate
   - jekyll-seo-tag
 
 # Optimize Jekyll
@@ -33,9 +33,15 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Emmy Tsang
+  url: https://twitter.com/emmyft
+  email: emmyftsang@gmail.com
+
+# A list of pages for navigation
+pages_list:
+  About: '/about'
+  Speaking: '/speaking'
+  Writing: '/writing'
 
 # Custom vars
 version: 3.0.0
