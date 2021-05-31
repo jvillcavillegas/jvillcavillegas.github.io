@@ -9,7 +9,7 @@ I co-organise [Open Life Science](https://openlifesci.org), a cohort-based train
 
 My recent experience: I completed my PhD in neuroscience at the European Molecular Biology Laboratory (EMBL) in Rome, Italy in 2018. I then joined [eLife](https://elifesciences.org/about/technology) as Innovation Community Manager, where I helped build a community of open-source practitioners to advance the development of open-source tools to change the ways we consume, discover, share and evaluate research.
 
-[Download my detailed CV](assets/EMMY_TSANG_CV_June%202021_PUBLIC.pdf).
+[Download my detailed CV](https://github.com/emmyft/emmyft.github.io/blob/master/assets/EMMY_TSANG_CV_June%202021_PUBLIC.pdf).
 
 I'm passionate about:
 - *Open & meaningful community designs* - designing community spaces and activities that bring together diverse backgrounds to safely share and learn from each other, build empathy, and map and pursue shared goals.
