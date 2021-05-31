@@ -3,13 +3,13 @@ layout: page
 title: About
 ---
 
-I am the Community Engagement Manager (Open Science) for the Technical University of Delft (TU Delft). TU Delft's leadership has the ambition to [make open science the default way of doing science](link), white its vibrant scholars' community has also been experimenting with various ways of sharing their work and collaborating with others more openly. I design and build bridges between institutional leadership, scholars, and research support staff, to facilitate meaningful participation of scholars and change managers in open science policy and infrastructure design, and raise the community's awareness and interest in open science. I manage [Open Science Community Delft](https://osc-delft.github.io), and am a member of the interim Steering Committee of the International Network of Open Science Community (INOSC).
+I am the Community Engagement Manager (Open Science) for the Technical University of Delft (TU Delft). TU Delft's leadership has the ambition to [make open science the default way of doing science](https://repository.tudelft.nl/islandora/object/uuid%3Af2faff07-408f-4cec-bd87-0919c9e4c26f), white its vibrant scholars' community has also been experimenting with various ways of sharing their work and collaborating with others more openly. I design and build bridges between institutional leadership, scholars, and research support staff, to facilitate meaningful participation of scholars and change managers in open science policy and infrastructure design, and raise the community's awareness and interest in open science. I manage [Open Science Community Delft](https://osc-delft.github.io), and am a member of the interim Steering Committee of the International Network of Open Science Community (INOSC).
 
 I co-organise [Open Life Science](https://openlifesci.org), a cohort-based training and mentorship programme to support individuals and stakeholders in research in becoming open science ambassadors.
 
 My recent experience: I completed my PhD in neuroscience at the European Molecular Biology Laboratory (EMBL) in Rome, Italy in 2018. I then joined [eLife](https://elifesciences.org/about/technology) as Innovation Community Manager, where I helped build a community of open-source practitioners to advance the development of open-source tools to change the ways we consume, discover, share and evaluate research.
 
-[Browse my detailed CV](link).
+[Browse my detailed CV (coming soon!)](link).
 
 I'm passionate about:
 - *Open & meaningful community designs* - designing community spaces and activities that bring together diverse backgrounds to safely share and learn from each other, build empathy, and map and pursue shared goals.
