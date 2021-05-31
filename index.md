@@ -10,4 +10,4 @@ Pronouns: she/her.
 Reach me via Twitter [@emmy_ft](https://twitter.com/emmyft) / GitHub [emmyft](https://github.com/emmyft) / [LinkedIn](https://www.linkedin.com/in/emmy-tsang-phd-11aa793b/).
 
 ![A photo of Emmy in Jordan in September 2019](assets/about.jpg)
-(Photo by GF, published with their explicit permission on this site - all rights reserved.)
+(Photo by Grace Fung, published with their explicit permission on this site - all rights reserved.)
