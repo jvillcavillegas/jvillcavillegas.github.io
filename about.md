@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I currently work at [Invest in Open Infrastructure](https://investinopen.org)(IOI). Recognising that research and scholarship needs open, community-driven infrastructure to thrive, IOI is dedicated improving funding and resourcing for open technologies and systems. As the first Engagement Lead at IOI, I'm setting up communication processes and tools, and working with our team and community to build stategies to engage stakeholders in co-creating research, resources, and roadmaps to advance our shared mission.
+I currently work at [Invest in Open Infrastructure](https://investinopen.org) (IOI). Recognising that research and scholarship needs open, community-driven infrastructure to thrive, IOI is dedicated improving funding and resourcing for open technologies and systems. As the first Engagement Lead at IOI, I'm setting up communication processes and tools, and working with our team and community to build stategies to engage stakeholders in co-creating research, resources, and roadmaps to advance our shared mission.
 
 I am also a Co-Director at [Open Life Science](https://openlifesci.org). We run a cohort-based training and mentorship programme to support individuals and stakeholders in research in becoming open science ambassadors.
 
