@@ -3,7 +3,7 @@ layout: page
 title: Hi - I'm Emmy!
 ---
 
-I'm the Community Engagement Manager for Open Science at the [Technical University of Delft](https://tudelft.nl), and a co-organiser of [Open Life Science](https://openlifesci.org).
+I'm currently the Engagement Lead at [Invest in Open Infrastructure](https://investinopen.org) and a Co-Director at [Open Life Science](https://openlifesci.org).
 
 Pronouns: she/her.
 
