@@ -52,7 +52,7 @@ Theme author is **Mark Otto**
 - <https://github.com/mdo>
 - <https://twitter.com/mdo>
 
-Content author (except where otherwise stated) is Emmy Tsang.
+Content author (except where otherwise stated) is Jose Luis Villca Villegas.
 
 ## License
 
