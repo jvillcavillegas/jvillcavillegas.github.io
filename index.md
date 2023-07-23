@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Hi - I'm Emmy!
+title: Hi - I'm Jose Luis!
 ---
 
-I'm currently the Engagement Lead at [Invest in Open Infrastructure](https://investinopen.org) and a Co-Director at [Open Life Science](https://openlifesci.org).
+I'm currently working in Clinical Research | Data Science |  R | Open Science.
 
-Pronouns: she/her.
+Pronouns: He/Him.
 
-Reach me via Twitter [@emmy_ft](https://twitter.com/emmyft) / GitHub [emmyft](https://github.com/emmyft) / [LinkedIn](https://www.linkedin.com/in/emmy-tsang-phd-11aa793b/).
+Reach me via Twitter [@emmy_ft](https://twitter.com/jvillcavillegas) / GitHub [emmyft](https://github.com/jvillcavillegas) / [LinkedIn](https://www.linkedin.com/in/jvillcavillegas/).
 
-![A photo of Emmy in Jordan in September 2019](assets/about.jpg)
-(Photo by Grace Fung, published with their explicit permission on this site - all rights reserved.)
+![A photo in CSV conf 2023](assets/about.jpg)
