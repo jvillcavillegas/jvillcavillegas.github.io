@@ -3,7 +3,7 @@ layout: page
 title: Hi - I'm Jose Luis!
 ---
 
-I'm currently working in Clinical Research | Data Science |  R | Open Science.
+I'm currently working in Clinical Research , Data Science ,  R , Open Science.
 
 Pronouns: He/Him.
 
