@@ -25,4 +25,4 @@ I am currently based in Buenos Aires, Argentina. I grew up in Cochabamba (Americ
 
 ## Professional short bio
 
-Jose Luis Villca Villegas is Mentor at Open Life Science, a UK-based not-for-profit organisation that runs a cohort-based training and mentoring programme for open science ambassadors worldwide. She is passionate about community design and making research more open, equitable and user-friendly.
+Jose Luis Villca Villegas is Mentor at Open Life Science, a UK-based not-for-profit organisation that runs a cohort-based training and mentoring programme for open science ambassadors worldwide. He is passionate about community design and making research more open, equitable and user-friendly.
