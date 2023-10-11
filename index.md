@@ -3,7 +3,7 @@ layout: page
 title: Hi - I'm Jose Luis!
 ---
 
-I'm currently working in Clinical Research , Data Science ,  R , Open Science.
+I am working on applying my knowledge in medicine, statistics (completing), causal inference (learning) for a healthier, more equitable, more transparent world.
 
 Pronouns: He/Him.
 
