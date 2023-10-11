@@ -6,7 +6,7 @@ I currently work as a mentor at [Open Life Science](https://openlifesci.org/) (O
 
 I continue to learn about advanced methods of statistics and causal inference to apply them in the health sciences, recognizing that clinical and population research needs an open infrastructure (Open Data) and driven by the medical community to thrive, I will continue to support the cause of Open Life Science and other similar initiatives.
 
-I am also a member of the [Metadocencia](https://metadocencia.org)team. We run a cohort-based training and mentoring program to help people with an interest in applying open science principles to their projects.
+I am also a member of the [Metadocencia](https://metadocencia.org) team. We run a cohort-based training and mentoring program to help people with an interest in applying open science principles to their projects.
 
 My recent experience: I completed my degree in medicine and diploma in education in health sciences education at the Universidad Mayor de San Simón (UMSS) in Cochabamba, Bolivia, in 2022.
 
