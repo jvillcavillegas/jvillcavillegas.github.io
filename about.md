@@ -2,12 +2,17 @@
 layout: page
 title: About
 ---
+I currently work as a mentor at [Open Life Science](https://openlifesci.org/) (OLS) teaching and accompanying research teams in Global Open Science principles. 
 
-I currently work at [Invest in Open Infrastructure](https://investinopen.org) (IOI). Recognising that research and scholarship needs open, community-driven infrastructure to thrive, IOI is dedicated improving funding and resourcing for open technologies and systems. As the first Engagement Lead at IOI, I'm setting up communication processes and tools, and working with our team and community to build stategies to engage stakeholders in co-creating research, resources, and roadmaps to advance our shared mission.
+I continue to learn about advanced methods of statistics and causal inference to apply them in the health sciences, recognizing that clinical and population research needs an open infrastructure (Open Data) and driven by the medical community to thrive, I will continue to support the cause of Open Life Science and other similar initiatives.
 
-I am also a Co-Director at [Open Life Science](https://openlifesci.org). We run a cohort-based training and mentorship programme to support individuals and stakeholders in research in becoming open science ambassadors.
+I am also a member of the [Metadocencia] team (https://metadocencia.org). We run a cohort-based training and mentoring program to help people with an interest in applying open science principles to their projects.
 
-My recent experience: I completed my PhD in neuroscience at the European Molecular Biology Laboratory (EMBL) in Rome, Italy in 2018. I then joined [eLife](https://elifesciences.org/about/technology) as Innovation Community Manager, where I helped build a community of open-source practitioners to advance the development of open-source tools to change the ways we consume, discover, share and evaluate research. Prior to joining IOI, I was the Open Science Community Engagement Manager at the Delft University of Technology (TU Delft). There, I led the communication and engagement efforts for the [TU Delft Open Science, Programme](https://www.tudelft.nl/open-science) and managed the [Open Science Community Delft](https://osc-delft.github.io), 
+My recent experience: I completed my degree in medicine and diploma in education in health sciences education at the Universidad Mayor de San Simón (UMSS) in Cochabamba, Bolivia, in 2022.
+
+I started an ongoing initiative called "Conectorial", a non-profit organization that promotes the visibility of scientific voices through teaching about editorial management based on open science, open data, open source.
+
+Before starting my first steps at a global level in the scientific world, I managed and administered the [Revista Cientifica Ciencia Medica](https://rccm-umss.com/index.php/revistacientificacienciamedica) an independent SCIENTIFIC magazine affiliated with the scientific society. of medical students, and to the medical school of the Universidad Mayor de San Simón in Cochabamba, Bolivia, so that it can connect to international databases, such as DOAJ, among others.
 
 [Download my detailed CV](https://github.com/emmyft/emmyft.github.io/blob/master/assets/EMMY_TSANG_CV_June%202021_PUBLIC.pdf).
 
