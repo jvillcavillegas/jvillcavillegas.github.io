@@ -4,15 +4,13 @@ title: About
 ---
 I currently work as a mentor at [Open Life Science](https://openlifesci.org/) (OLS) teaching and accompanying research teams in Global Open Science principles. 
 
-I continue to learn about advanced methods of statistics and causal inference to apply them in the health sciences, recognizing that clinical and population research needs an open infrastructure (Open Data) and driven by the medical community to thrive, I will continue to support the cause of Open Life Science and other similar initiatives.
-
 I am also a member of the [Metadocencia](https://metadocencia.org) team. We run a cohort-based training and mentoring program to help people with an interest in applying open science principles to their projects.
 
 My recent experience: I completed my degree in medicine and diploma in education in health sciences education at the Universidad Mayor de San Simón (UMSS) in Cochabamba, Bolivia, in 2022, and now I continue my path as a master in clinical research at the university institute of the Italian hospital of Buenos Aires.
 
+I continue to learn about advanced methods of statistics and causal inference to apply them in the health sciences, recognizing that clinical and population research needs an open infrastructure (Open Data) and driven by the medical community to thrive, I will continue to support the cause of Open Life Science and other similar initiatives.
 
-
-I started an ongoing initiative called "Conectorial", a non-profit organization that promotes the visibility of scientific voices through teaching about editorial management based on open science, open data, open source.
+I started an ongoing initiative called "Conectorial", a non-profit organization that promotes the visibility of scientific voices through teaching about editorial management based on open science, open data, open source in 2022.
 
 Before starting my first steps at a global level in the scientific world, I managed and administered the [Revista Cientifica Ciencia Medica](https://rccm-umss.com/index.php/revistacientificacienciamedica) an independent SCIENTIFIC magazine affiliated with the scientific society. of medical students, and to the medical school of the Universidad Mayor de San Simón in Cochabamba, Bolivia, so that it can connect to international databases, such as DOAJ, among others.
 
