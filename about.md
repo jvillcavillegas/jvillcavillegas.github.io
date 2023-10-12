@@ -8,7 +8,9 @@ I continue to learn about advanced methods of statistics and causal inference to
 
 I am also a member of the [Metadocencia](https://metadocencia.org) team. We run a cohort-based training and mentoring program to help people with an interest in applying open science principles to their projects.
 
-My recent experience: I completed my degree in medicine and diploma in education in health sciences education at the Universidad Mayor de San Simón (UMSS) in Cochabamba, Bolivia, in 2022.
+My recent experience: I completed my degree in medicine and diploma in education in health sciences education at the Universidad Mayor de San Simón (UMSS) in Cochabamba, Bolivia, in 2022, and now I continue my path as a master in clinical research at the university institute of the Italian hospital of Buenos Aires.
+
+
 
 I started an ongoing initiative called "Conectorial", a non-profit organization that promotes the visibility of scientific voices through teaching about editorial management based on open science, open data, open source.
 
