@@ -1,28 +1,140 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
-I currently work as a mentor at [Open Life Science](https://openlifesci.org/) (OLS) teaching and accompanying research teams in Global Open Science principles. 
 
-I am also a member of the [Metadocencia](https://metadocencia.org) team. We run a cohort-based training and mentoring program to help people with an interest in applying open science principles to their projects.
+## Professional Summary
 
-My recent experience: I completed my degree in medicine and diploma in education in health sciences education at the Universidad Mayor de San Simón (UMSS) in Cochabamba, Bolivia, in 2022, and now I continue my path as a master in clinical research at the university institute of the Italian hospital of Buenos Aires.
+Jose Luis Villca Villegas is a medical doctor and clinical researcher dedicated to advancing health equity through open science, rigorous statistical methodology, and community-driven research. Currently pursuing a Master's in Clinical Research at the Italian Hospital of Buenos Aires, he combines medical expertise with advanced quantitative methods to improve healthcare outcomes and research transparency.
 
-I continue to learn about advanced methods of statistics and causal inference to apply them in the health sciences, recognizing that clinical and population research needs an open infrastructure (Open Data) and driven by the medical community to thrive, I will continue to support the cause of Open Life Science and other similar initiatives.
+<p style="text-align: center; margin: 2rem 0;">
+  <a href="https://github.com/jvillcavillegas/jvillcavillegas.github.io/blob/master/assets/CV-Jose%20Luis%20Villca%20Villegas-English.pdf" class="social-link">Download Detailed CV</a>
+</p>
 
-I started an ongoing initiative called "Conectorial", a non-profit organization that promotes the visibility of scientific voices through teaching about editorial management based on open science, open data, open source in 2022.
+---
 
-Before starting my first steps at a global level in the scientific world, I managed and administered the [Revista Cientifica Ciencia Medica](https://rccm-umss.com/index.php/revistacientificacienciamedica) an independent SCIENTIFIC magazine affiliated with the scientific society. of medical students, and to the medical school of the Universidad Mayor de San Simón in Cochabamba, Bolivia, so that it can connect to international databases, such as DOAJ, among others.
+## Current Roles
 
-[Download my detailed CV](https://github.com/jvillcavillegas/jvillcavillegas.github.io/blob/master/assets/CV-Jose%20Luis%20Villca%20Villegas-English.pdf).
+<div class="experience-item">
+  <div class="role">Mentor</div>
+  <div class="organization">Open Life Science</div>
+  <div class="period">2022 - Present</div>
+  <p>Teaching and accompanying research teams worldwide in global open science principles through cohort-based training and mentoring programs. Helping to make research more accessible, equitable, and collaborative.</p>
+</div>
 
-It captivates me:
-- *Causal inference applied to health sciences*: Model reality through causal inference applied to human diseases and understand their causes, to improve medical decision making
-- *Causal inference to decision making in population health policies* - Through understanding the causes of the social, cultural, economic reality of people, to improve public health policies
-- *Open Science and Open Infrastructure*: Apply and teach about the principles of open science and open infrastructure to diverse groups of researchers
+<div class="experience-item">
+  <div class="role">Core Team Member</div>
+  <div class="organization">Metadocencia</div>
+  <div class="period">2022 - Present</div>
+  <p>Contributing to cohort-based training and mentoring programs that help researchers apply open science principles to their projects across Latin America.</p>
+</div>
 
-I am currently based in Buenos Aires, Argentina. I grew up in Cochabamba (America Valley Region), and Oruro (Andean region of America), . I love travelling (mostly for the food), listen to too much pop, occasionally shoot B&W in film and am trying to build a balcony vegetable garden.
+<div class="experience-item">
+  <div class="role">Founder</div>
+  <div class="organization">Conectorial</div>
+  <div class="period">2022 - Present</div>
+  <div class="location">Non-profit Organization</div>
+  <p>Leading an initiative that promotes the visibility of scientific voices through teaching about editorial management based on open science, open data, and open source principles.</p>
+</div>
 
-## Professional short bio
+---
 
-Jose Luis Villca Villegas is Mentor at Open Life Science, a UK-based not-for-profit organisation that runs a cohort-based training and mentoring programme for open science ambassadors worldwide. He is passionate about community design and making research more open, equitable and user-friendly.
+## Education
+
+<div class="education-item">
+  <div class="role">Master's in Clinical Research</div>
+  <div class="organization">Italian Hospital of Buenos Aires - University Institute</div>
+  <div class="period">2023 - Present</div>
+  <div class="location">Buenos Aires, Argentina</div>
+  <p>Specializing in advanced statistical methods, causal inference, and clinical research methodology.</p>
+</div>
+
+<div class="education-item">
+  <div class="role">Medical Degree (MD)</div>
+  <div class="organization">Universidad Mayor de San Simón (UMSS)</div>
+  <div class="period">Completed 2022</div>
+  <div class="location">Cochabamba, Bolivia</div>
+</div>
+
+<div class="education-item">
+  <div class="role">Diploma in Health Sciences Education</div>
+  <div class="organization">Universidad Mayor de San Simón (UMSS)</div>
+  <div class="period">Completed 2022</div>
+  <div class="location">Cochabamba, Bolivia</div>
+</div>
+
+---
+
+## Research Interests & Expertise
+
+<div class="skills-grid">
+  <div class="skill-category">
+    <h4>Causal Inference</h4>
+    <ul>
+      <li>Disease causation modeling</li>
+      <li>Medical decision-making improvement</li>
+      <li>Population health policy analysis</li>
+      <li>Social determinants of health</li>
+    </ul>
+  </div>
+
+  <div class="skill-category">
+    <h4>Biostatistics</h4>
+    <ul>
+      <li>Advanced statistical methods</li>
+      <li>Clinical trial design</li>
+      <li>Epidemiological analysis</li>
+      <li>Data science applications</li>
+    </ul>
+  </div>
+
+  <div class="skill-category">
+    <h4>Open Science</h4>
+    <ul>
+      <li>Open infrastructure development</li>
+      <li>Open data practices</li>
+      <li>Community engagement</li>
+      <li>Research transparency</li>
+    </ul>
+  </div>
+
+  <div class="skill-category">
+    <h4>Scientific Publishing</h4>
+    <ul>
+      <li>Editorial management</li>
+      <li>Peer review processes</li>
+      <li>Journal administration</li>
+      <li>Research dissemination</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+## Notable Experience
+
+### Journal Management
+
+As Editor-in-Chief of [Revista Cientifica Ciencia Medica](https://rccm-umss.com/index.php/revistacientificacienciamedica), I led the journal's transformation and integration into international databases including DOAJ. This independent scientific journal, affiliated with the Scientific Society of Medical Students and the Medical School of Universidad Mayor de San Simón in Cochabamba, Bolivia, significantly expanded its reach and impact under my leadership.
+
+### Research & Teaching
+
+I founded and led the First Research Seedbed at UMSS, fostering research culture among medical students and mentoring early-career researchers in methodology, statistics, and open science principles.
+
+---
+
+## Personal
+
+I am currently based in **Buenos Aires, Argentina**. Originally from Bolivia, I grew up in Cochabamba (America Valley Region) and Oruro (Andean region), experiencing diverse cultural and geographical landscapes that shape my understanding of health equity and social determinants.
+
+Beyond research and medicine, I enjoy:
+- Traveling and exploring diverse cuisines
+- Photography, particularly black & white film
+- Cultivating a balcony vegetable garden
+- Following contemporary pop music
+
+---
+
+## Professional Bio (Short Version)
+
+Jose Luis Villca Villegas is a Mentor at Open Life Science, a UK-based not-for-profit organization that runs a cohort-based training and mentoring program for open science ambassadors worldwide. He is passionate about community design and making research more open, equitable, and user-friendly. With a background in medicine and ongoing specialization in clinical research, he bridges clinical practice, rigorous methodology, and collaborative science to advance health equity globally.

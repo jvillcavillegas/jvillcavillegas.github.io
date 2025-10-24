@@ -1,29 +1,102 @@
 ---
 layout: page
-title: Selected Publications
+title: Publications & Research Output
 ---
 
-## Peer-reviewed publications (Original articles and Review articles):
+## Overview
 
-1.	Villca Villegas Jose Luis , Chavez-Soliz Helem Rocio, Mamani Ortiz Yercin, Arévalo Gonzales Mary Rossana. Correlation and agreement of the circumference/waist and circumference/height indices with the body mass index. Bolivian Medical Gazette. 2019 Dec; 42(2): 122-126. Available at: [Journal "Gaceta Medica Boliviana"](http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S1012-29662019000200006&lng=es.)
+My research focuses on clinical epidemiology, public health, causal inference, and open science practices. I have published peer-reviewed articles on topics ranging from COVID-19 epidemiology to obesity research, vaccine effectiveness, and mental health of healthcare workers.
 
-2.	Villca Villegas Jose Luis , Danae Carelis Davila Espinoza, Ximena Gonzales Rojas, Yercin Mamani Ortiz, Motivation, Qualities and Interests of medical students: Implementation of the 1st Research Seedbed. Scientifica. 2020 Dec; 18 (2): 3-8.
+---
 
-3.	Quiñones Miranda Miriam Patricia, José Luis Villca Villegas . Musculoskeletal diseases and their association with overweight and obesity in older adults, a cross-sectional study. Bolivian Medical Gazette. 2021 Jun: 44(1): 40-43. Available at: [Journal "Gaceta Medica Boliviana"](https://dialnet.unirioja.es/servlet/articulo?codigo=8074075)
+## Peer-Reviewed Publications
 
-4.	Villca Villegas Jose Luis , Condori Salluco Nelson Franco, Alarcon Arteaga Andrea. Ecological Study of Bolivian Homes and their Relationship with COVID-19, Management 2020. Gac Med Bol. 2022 Jun; 45(1): 17-22. Available at: [Journal "Gaceta Medica Boliviana"](https://doi.org/10.47993/gmb.v45i1.360).
+### Original Research Articles
 
-5.	Pahuasi Pardo David, Villca Villegas Jose Luis . Risk Factors That Influence Morbidity and Mortality in Patients with COVID-19. Gac Med Bull. 2022 Jun; 45(1): 41-44. Available at: [Journal "Gaceta Medica Boliviana"](https://doi.org/10.47993/gmb.v45i1.361.)
-  
-6.	Villca Villegas Jose Luis , Jove Veizaga Adriana Julieta, Policarpio Hilari Ana Cristina, Ochoa Ledezma Esther Elisa. Bibliometric analysis of scientific evidence of vaccines (Sputnik V, Moderna, Pfizer, Sinopharm, AstraZeneca, Janssen) for Covid-19. Gac Med Bull. 2022; 45(2): 167-173. Available at: [Journal "Gaceta Medica Boliviana"](https://doi.org/10.47993/gmb.v45i2.223.)
+<div class="publication-item">
+<strong>Correlation and agreement of the circumference/waist and circumference/height indices with the body mass index</strong><br>
+<em>Villca Villegas JL</em>, Chavez-Soliz HR, Mamani Ortiz Y, Arévalo Gonzales MR<br>
+Gaceta Médica Boliviana. 2019 Dec; 42(2): 122-126<br>
+<a href="http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S1012-29662019000200006&lng=es" target="_blank">View Article</a>
+</div>
 
-7.	Villca Villegas Jose Luis, Moreno Choque Rocio Aracely, Gomez Verduguez Camila Alejandra, Vargas Aguilar Alvaro Andre. Influence of the COVID-19 pandemic on the mental health of health workers. Bolivian Medical Gazette. 2021 Jun; 44(1): 75-80. Available at: [Journal "Gaceta Medica Boliviana"](http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S1012-29662021000100013&lng=es) 
+<div class="publication-item">
+<strong>Motivation, Qualities and Interests of medical students: Implementation of the 1st Research Seedbed</strong><br>
+<em>Villca Villegas JL</em>, Davila Espinoza DC, Gonzales Rojas X, Mamani Ortiz Y<br>
+Scientifica. 2020 Dec; 18(2): 3-8
+</div>
 
+<div class="publication-item">
+<strong>Musculoskeletal diseases and their association with overweight and obesity in older adults: a cross-sectional study</strong><br>
+Quiñones Miranda MP, <em>Villca Villegas JL</em><br>
+Gaceta Médica Boliviana. 2021 Jun; 44(1): 40-43<br>
+<a href="https://dialnet.unirioja.es/servlet/articulo?codigo=8074075" target="_blank">View Article</a>
+</div>
 
-Non-peer reviewed publications (Editorials, Letters to the editor):
+<div class="publication-item">
+<strong>Influence of the COVID-19 pandemic on the mental health of health workers</strong><br>
+<em>Villca Villegas JL</em>, Moreno Choque RA, Gomez Verduguez CA, Vargas Aguilar AA<br>
+Gaceta Médica Boliviana. 2021 Jun; 44(1): 75-80<br>
+<a href="http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S1012-29662021000100013&lng=es" target="_blank">View Article</a>
+</div>
 
-1.	Villca Villegas Jose Luis , Moreno Choque Rocio Aracely. Defining a good research question using the PICOT and FINGER format. Bolivian Medical Gazette. 2020 Dec;43(2):233-5. Available at: [Journal "Gaceta Medica Boliviana"](https://www.gacetamedicaboliviana.com/index.php/gmb/article/view/222)
+<div class="publication-year">2022 Publications</div>
 
-2.	Villca Villegas Jose Luis , Condori Salluco Nelson Franco. Adaptation of the editorial process and the importance of open access during the covid-19 pandemic. Medical Science Scientific Magazine. 2020 Jun; 23(1): 4-5. Available at:[Journal "Gaceta Medica Boliviana"](http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S1817-74332020000100001&lng=es.)
+<div class="publication-item">
+<strong>Ecological Study of Bolivian Homes and their Relationship with COVID-19, Management 2020</strong><br>
+<em>Villca Villegas JL</em>, Condori Salluco NF, Alarcon Arteaga A<br>
+Gaceta Médica Boliviana. 2022 Jun; 45(1): 17-22<br>
+<a href="https://doi.org/10.47993/gmb.v45i1.360" target="_blank">DOI: 10.47993/gmb.v45i1.360</a>
+</div>
+
+<div class="publication-item">
+<strong>Risk Factors That Influence Morbidity and Mortality in Patients with COVID-19</strong><br>
+Pahuasi Pardo D, <em>Villca Villegas JL</em><br>
+Gaceta Médica Boliviana. 2022 Jun; 45(1): 41-44<br>
+<a href="https://doi.org/10.47993/gmb.v45i1.361" target="_blank">DOI: 10.47993/gmb.v45i1.361</a>
+</div>
+
+<div class="publication-item">
+<strong>Bibliometric analysis of scientific evidence of vaccines (Sputnik V, Moderna, Pfizer, Sinopharm, AstraZeneca, Janssen) for Covid-19</strong><br>
+<em>Villca Villegas JL</em>, Jove Veizaga AJ, Policarpio Hilari AC, Ochoa Ledezma EE<br>
+Gaceta Médica Boliviana. 2022; 45(2): 167-173<br>
+<a href="https://doi.org/10.47993/gmb.v45i2.223" target="_blank">DOI: 10.47993/gmb.v45i2.223</a>
+</div>
+
+---
+
+## Editorials & Commentaries
+
+<div class="publication-item">
+<strong>Defining a good research question using the PICOT and FINGER format</strong><br>
+<em>Villca Villegas JL</em>, Moreno Choque RA<br>
+Gaceta Médica Boliviana. 2020 Dec; 43(2): 233-235<br>
+<a href="https://www.gacetamedicaboliviana.com/index.php/gmb/article/view/222" target="_blank">View Article</a>
+</div>
+
+<div class="publication-item">
+<strong>Adaptation of the editorial process and the importance of open access during the covid-19 pandemic</strong><br>
+<em>Villca Villegas JL</em>, Condori Salluco NF<br>
+Revista Científica Ciencia Médica. 2020 Jun; 23(1): 4-5<br>
+<a href="http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S1817-74332020000100001&lng=es" target="_blank">View Article</a>
+</div>
+
+---
+
+## Research Themes
+
+My publications span several interconnected themes:
+
+- **COVID-19 Research**: Epidemiological studies on risk factors, mental health impacts, and vaccine evidence
+- **Chronic Disease Epidemiology**: Studies on obesity, musculoskeletal disorders, and cardiometabolic health
+- **Research Methodology**: Educational content on research question formulation and study design
+- **Open Science**: Advocacy for open access publishing and transparent research practices
+- **Medical Education**: Implementation and evaluation of research training programs for medical students
+
+---
+
+<p class="cta-text">
+  For collaboration opportunities or to discuss my research, please <a href="mailto:jvillcavillegas@gmail.com">contact me</a>.
+</p>
 
 

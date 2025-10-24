@@ -1,6 +1,6 @@
 # Setup
 title: Jose Luis Villca Villegas
-tagline:
+tagline: Open Science Advocate | Clinical Researcher | Mentor
 url: https://jvillcavillegas.github.io
 paginate: 0
 baseurl: ""
@@ -40,8 +40,8 @@ author:
 # A list of pages for navigation
 pages_list:
   About: '/about'
+  Publications: '/writing'
   Speaking: '/speaking'
-  Writing: '/writing'
 
 # Custom vars
 version: 3.0.0
