@@ -9,6 +9,7 @@ title: Jose Luis Villca Villegas
   <p class="hero-description">
     Applying medicine, statistics, and causal inference to build a healthier, more equitable, and transparent world through open science and collaborative research.
   </p>
+I'm currently the Engagement Lead at [Invest in Open Infrastructure](https://investinopen.org).
 
   <div class="social-links">
     <a href="https://twitter.com/jvillcavillegas" target="_blank" class="social-link">Twitter</a>
@@ -19,6 +20,7 @@ title: Jose Luis Villca Villegas
 </div>
 
 ## What I Do
+Reach me via [LinkedIn](https://www.linkedin.com/in/emmy-tsang-phd-11aa793b/) / Mastodon [emmyft@mastodon.cloud](https://mastodon.cloud/@emmyft) / Twitter/X [@emmy_ft](https://twitter.com/emmyft) / ORCID [0000-0002-9248-1280](https://orcid.org/0000-0002-9248-1280).
 
 <div class="highlight-cards">
   <div class="card">

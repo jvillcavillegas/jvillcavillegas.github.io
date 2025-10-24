@@ -77,6 +77,9 @@ Jose Luis Villca Villegas is a medical doctor and clinical researcher dedicated 
       <li>Social determinants of health</li>
     </ul>
   </div>
+I currently work at [Invest in Open Infrastructure](https://investinopen.org) (IOI). Recognising that research and scholarship need open, community-driven infrastructure to thrive, IOI works to increase the investment in and the adoption of open infrastructure. As the Engagement Lead at IOI, I lead the design and execution of strategies and processes to ensure that IOI's research, products, strategic guidance, and recommendations are built _with_ stakeholders in the open infrastructure space, particularly those who are most impacted. Examples of my work include designing the participatory grantmaking process of [the Open Infrastructure Fund](https://investinopen.org/funding-pilots/oi-fund) and the community engagement and go-to-market strategy for the first iteration of [Infra Finder](https://infrafinder.investinopen.org).
+
+My experience: I completed my PhD in neuroscience at the European Molecular Biology Laboratory (EMBL) in Rome, Italy in 2018. I then joined [eLife](https://elifesciences.org/about/technology) as Innovation Community Manager, where I helped build a community of open-source practitioners to advance the development of open-source tools to change the ways we consume, discover, share and evaluate research. Prior to joining IOI, I was the Open Science Community Engagement Manager at the Delft University of Technology (TU Delft). There, I led the communication and engagement efforts for the [TU Delft Open Science, Programme](https://www.tudelft.nl/open-science) and managed the [Open Science Community Delft](https://osc-delft.github.io). Between 2021 and 2024, I've also had the pleasure of serving as a Co-Director of [OLS](https://we-are-ols.org), a not-for-profit initiative dedicated to capacity building and diversifying leadership in research worldwide.
 
   <div class="skill-category">
     <h4>Biostatistics</h4>
@@ -88,53 +91,8 @@ Jose Luis Villca Villegas is a medical doctor and clinical researcher dedicated 
     </ul>
   </div>
 
-  <div class="skill-category">
-    <h4>Open Science</h4>
-    <ul>
-      <li>Open infrastructure development</li>
-      <li>Open data practices</li>
-      <li>Community engagement</li>
-      <li>Research transparency</li>
-    </ul>
-  </div>
-
-  <div class="skill-category">
-    <h4>Scientific Publishing</h4>
-    <ul>
-      <li>Editorial management</li>
-      <li>Peer review processes</li>
-      <li>Journal administration</li>
-      <li>Research dissemination</li>
-    </ul>
-  </div>
-</div>
-
----
-
-## Notable Experience
-
-### Journal Management
-
-As Editor-in-Chief of [Revista Cientifica Ciencia Medica](https://rccm-umss.com/index.php/revistacientificacienciamedica), I led the journal's transformation and integration into international databases including DOAJ. This independent scientific journal, affiliated with the Scientific Society of Medical Students and the Medical School of Universidad Mayor de San Simón in Cochabamba, Bolivia, significantly expanded its reach and impact under my leadership.
-
-### Research & Teaching
-
-I founded and led the First Research Seedbed at UMSS, fostering research culture among medical students and mentoring early-career researchers in methodology, statistics, and open science principles.
-
----
-
-## Personal
-
-I am currently based in **Buenos Aires, Argentina**. Originally from Bolivia, I grew up in Cochabamba (America Valley Region) and Oruro (Andean region), experiencing diverse cultural and geographical landscapes that shape my understanding of health equity and social determinants.
-
-Beyond research and medicine, I enjoy:
-- Traveling and exploring diverse cuisines
-- Photography, particularly black & white film
-- Cultivating a balcony vegetable garden
-- Following contemporary pop music
-
----
+I currently live in Utrecht, the Netherlands, most known for [the fish doorbell](https://visdeurbel.nl/en/the-fish-doorbell/) and [Miffy museum](https://nijntjemuseum.nl/en/). I grew up in Hong Kong and have lived in the UK and Italy for long periods. I love travelling (mostly for the food), listen to too much mandopop, occasionally shoot B&W in film, and am trying to keep thrips off my many indoor plants.
 
 ## Professional Bio (Short Version)
 
-Jose Luis Villca Villegas is a Mentor at Open Life Science, a UK-based not-for-profit organization that runs a cohort-based training and mentoring program for open science ambassadors worldwide. He is passionate about community design and making research more open, equitable, and user-friendly. With a background in medicine and ongoing specialization in clinical research, he bridges clinical practice, rigorous methodology, and collaborative science to advance health equity globally.
+Emmy Tsang is the Engagement Lead at Invest in Open Infrastructure (IOI), a non-profit initiative dedicated to increasing investment in and adoption of open infrastructure to further equitable access to and participation in research and scholarship. At IOI, she leads the design and execution of communication and engagement strategies to engage stakeholders in co-creating research, products, strategic guidance, and recommendations to advance our shared mission. She is passionate about community design and making research more open, equitable, and user-friendly.
