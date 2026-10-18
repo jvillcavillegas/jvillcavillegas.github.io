@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-en="R toolkit | Jose Luis Villca Villegas" data-es="Kit de R | Jose Luis Villca Villegas">R toolkit | Jose Luis Villca Villegas</title>
+<meta name="description" content="Curated R packages for meta-analysis (meta, metafor, netmeta, mada, dmetar, robvis, estmeansd) with copy-ready code and downloadable templates.">
+<meta name="author" content="Jose Luis Villca Villegas">
+<meta name="theme-color" content="#1e2b3a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="R toolkit | Jose Luis Villca Villegas">
+<meta property="og:description" content="Curated R packages for meta-analysis (meta, metafor, netmeta, mada, dmetar, robvis, estmeansd) with copy-ready code and downloadable templates.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,450;6..72,500&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/config.js"></script>
+<script>
+(function(){var d=document.documentElement,g=function(k){try{return localStorage.getItem(k)}catch(e){return null}},s=function(k,v){try{localStorage.setItem(k,v)}catch(e){}};
+var q=null;try{q=new URLSearchParams(location.search).get('lang')}catch(e){}
+var l=(q==='es'||q==='en')?q:(g('jlv-lang')||(window.SITE_CONFIG&&SITE_CONFIG.defaultLang)||'en');if(q==='es'||q==='en')s('jlv-lang',q);
+d.setAttribute('lang',l);
+var t=g('jlv-theme')||(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');d.setAttribute('data-theme',t);})();
+</script>
+
+</head>
+<body>
+<a class="skip" href="#main"><span data-l="en">Skip to content</span><span data-l="es">Saltar al contenido</span></a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/img/avatar.jpg" alt="" width="34" height="34"><span>Jose Luis Villca Villegas</span></a>
+    <nav id="site-nav" class="nav" data-i18n-attrs="aria-label" aria-label="Main" data-aria-label-en="Main" data-aria-label-es="Principal">
+<a href="index.html"><span data-l="en">Home</span><span data-l="es">Inicio</span></a>
+<a href="about.html"><span data-l="en">About</span><span data-l="es">Sobre mí</span></a>
+<a href="tools.html"><span data-l="en">Evidence tools</span><span data-l="es">Herramientas</span></a>
+<a href="toolkit.html" aria-current="page"><span data-l="en">R toolkit</span><span data-l="es">Kit de R</span></a>
+<a href="projects.html"><span data-l="en">Projects</span><span data-l="es">Proyectos</span></a>
+    </nav>
+    <div class="header-tools">
+      <button type="button" class="lang-switch" aria-pressed="false" aria-label="Cambiar a español" title="English / Español"><span class="opt-en">EN</span><span class="opt-es">ES</span></button>
+      <button type="button" class="icon-btn theme-toggle" data-i18n-attrs="aria-label,title" aria-label="Dark mode" data-aria-label-en="Dark mode" data-aria-label-es="Modo oscuro" title="Dark mode" data-title-en="Dark mode" data-title-es="Modo oscuro"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button>
+      <button type="button" class="icon-btn menu-toggle" aria-expanded="false" aria-controls="site-nav" data-i18n-attrs="aria-label" aria-label="Menu" data-aria-label-en="Menu" data-aria-label-es="Menú"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<header class="page-head">
+  <div class="wrap">
+    <h1><span data-l="en">R toolkit</span><span data-l="es">Kit de R</span></h1>
+    <p class="lede" data-l="en">The R packages I use most for evidence synthesis, each with a short working example. These are community packages; the credit belongs to their authors, so please cite them.</p><p class="lede" data-l="es">Los paquetes de R que más uso para síntesis de evidencia, cada uno con un ejemplo breve que funciona. Son paquetes de la comunidad; el mérito es de sus autores, así que cítalos.</p>
+  </div>
+</header>
+<section class="section" style="padding-top:1rem">
+  <div class="wrap">
+<article class="pkg" id="meta">
+  <div><h3>meta</h3><div class="use"><span data-l="en">Pairwise meta-analysis with sensible defaults</span><span data-l="es">Metaanálisis por pares con valores por defecto sensatos</span></div><a class="src" href="https://cran.r-project.org/package=meta" target="_blank" rel="noopener">CRAN</a></div>
+  <div><p data-l="en">My starting point for most reviews: binary, continuous and generic inverse-variance outcomes, forest and funnel plots, and prediction intervals.</p><p data-l="es">Mi punto de partida en la mayoría de revisiones: desenlaces binarios, continuos y de varianza inversa genérica, forest y funnel plots, e intervalos de predicción.</p><div class="code"><pre><code>install.packages(&quot;meta&quot;)
+library(meta)
+
+m &lt;- metabin(event.e, n.e, event.c, n.c, studlab = study,
+             data = dat, sm = &quot;RR&quot;,
+             method.tau = &quot;REML&quot;,          <span class="c"># between-study variance</span>
+             method.random.ci = &quot;HK&quot;,      <span class="c"># Hartung-Knapp CI</span>
+             prediction = TRUE)
+summary(m)
+forest(m, sortvar = TE)</code></pre></div></div>
+</article>
+<article class="pkg" id="metafor">
+  <div><h3>metafor</h3><div class="use"><span data-l="en">The complete meta-analysis framework</span><span data-l="es">El marco completo para metaanálisis</span></div><a class="src" href="https://www.metafor-project.org" target="_blank" rel="noopener">metafor-project.org</a></div>
+  <div><p data-l="en">For meta-regression, multilevel models and anything the simpler interfaces do not cover.</p><p data-l="es">Para metarregresión, modelos multinivel y todo lo que las interfaces más simples no cubren.</p><div class="code"><pre><code>library(metafor)
+
+es  &lt;- escalc(measure = &quot;SMD&quot;,
+              m1i = m1, sd1i = sd1, n1i = n1,
+              m2i = m2, sd2i = sd2, n2i = n2, data = dat)
+res &lt;- rma(yi, vi, data = es, method = &quot;REML&quot;, test = &quot;knha&quot;)
+res
+forest(res); funnel(res)
+regtest(res)                       <span class="c"># Egger-type test (use with &gt;= 10 studies)</span></code></pre></div></div>
+</article>
+<article class="pkg" id="netmeta">
+  <div><h3>netmeta</h3><div class="use"><span data-l="en">Network meta-analysis</span><span data-l="es">Metaanálisis en red</span></div><a class="src" href="https://cran.r-project.org/package=netmeta" target="_blank" rel="noopener">CRAN</a></div>
+  <div><p data-l="en">Frequentist network meta-analysis with network graphs, league tables and treatment rankings.</p><p data-l="es">Metaanálisis en red frecuentista, con grafos de la red, tablas de liga y rankings de tratamientos.</p><div class="code"><pre><code>library(netmeta)
+
+p  &lt;- pairwise(treat = treatment, event = events, n = total,
+               studlab = study, data = arms, sm = &quot;OR&quot;)
+nm &lt;- netmeta(p, reference.group = &quot;placebo&quot;)
+netgraph(nm)
+forest(nm)
+netrank(nm)                        <span class="c"># P-scores</span></code></pre></div></div>
+</article>
+<article class="pkg" id="mada">
+  <div><h3>mada</h3><div class="use"><span data-l="en">Diagnostic test accuracy meta-analysis</span><span data-l="es">Metaanálisis de precisión diagnóstica</span></div><a class="src" href="https://cran.r-project.org/package=mada" target="_blank" rel="noopener">CRAN</a></div>
+  <div><p data-l="en">Bivariate (Reitsma) model for sensitivity and specificity, with SROC curves.</p><p data-l="es">Modelo bivariado (Reitsma) para sensibilidad y especificidad, con curvas SROC.</p><div class="code"><pre><code>library(mada)
+
+<span class="c"># dat needs columns TP, FN, FP, TN (one row per study)</span>
+fit &lt;- reitsma(dat)
+summary(fit)
+plot(fit, sroclwd = 2, main = &quot;SROC&quot;)
+points(fpr(dat), sens(dat), pch = 2)
+forest(madad(dat), type = &quot;sens&quot;)</code></pre></div></div>
+</article>
+<article class="pkg" id="dmetar">
+  <div><h3>dmetar</h3><div class="use"><span data-l="en">Companion to Doing Meta-Analysis in R</span><span data-l="es">Complemento de Doing Meta-Analysis in R</span></div><a class="src" href="https://github.com/MathiasHarrer/dmetar" target="_blank" rel="noopener">GitHub</a></div>
+  <div><p data-l="en">Helper functions for outlier detection and influence analysis on top of meta. Installed from GitHub.</p><p data-l="es">Funciones auxiliares para detectar valores atípicos y analizar influencia sobre meta. Se instala desde GitHub.</p><div class="code"><pre><code>install.packages(&quot;remotes&quot;)
+remotes::install_github(&quot;MathiasHarrer/dmetar&quot;)
+library(dmetar)
+
+find.outliers(m)                   <span class="c"># m is a meta object</span>
+InfluenceAnalysis(m, random = TRUE)</code></pre></div></div>
+</article>
+<article class="pkg" id="robvis">
+  <div><h3>robvis</h3><div class="use"><span data-l="en">Risk-of-bias figures</span><span data-l="es">Figuras de riesgo de sesgo</span></div><a class="src" href="https://cran.r-project.org/package=robvis" target="_blank" rel="noopener">CRAN</a></div>
+  <div><p data-l="en">Traffic-light and summary plots for RoB 2, ROBINS-I, QUADAS-2 and more.</p><p data-l="es">Gráficos de semáforo y de resumen para RoB 2, ROBINS-I, QUADAS-2 y otros.</p><div class="code"><pre><code>library(robvis)
+
+rob_traffic_light(data_rob2, tool = &quot;ROB2&quot;)
+rob_summary(data_rob2, tool = &quot;ROB2&quot;, overall = TRUE)</code></pre></div></div>
+</article>
+<article class="pkg" id="estmeansd">
+  <div><h3>estmeansd</h3><div class="use"><span data-l="en">Mean and SD from quantiles, for skewed data</span><span data-l="es">Media y DE desde cuantiles, para datos asimétricos</span></div><a class="src" href="https://cran.r-project.org/package=estmeansd" target="_blank" rel="noopener">CRAN</a></div>
+  <div><p data-l="en">Quantile-estimation (QE) and Box-Cox (BC) methods. Use it when the median-to-mean tool warns about skewness.</p><p data-l="es">Métodos de estimación por cuantiles (QE) y Box-Cox (BC). Úsalo cuando la herramienta de mediana a media advierte asimetría.</p><div class="code"><pre><code>library(estmeansd)
+
+qe &lt;- qe.mean.sd(q1.val = 31, med.val = 42, q3.val = 55, n = 64)
+qe$est.mean
+qe$est.sd</code></pre></div></div>
+</article></div>
+</section>
+<section class="section" id="templates">
+  <div class="wrap">
+    <div class="section-head">
+      <h2><span data-l="en">Templates</span><span data-l="es">Plantillas</span></h2>
+      <p data-l="en">Commented scripts with example data. Replace the data frame with your own extraction and run top to bottom.</p><p data-l="es">Scripts comentados con datos de ejemplo. Reemplaza el data frame con tu propia extracción y ejecútalos de principio a fin.</p>
+    </div>
+    <div class="downloads">
+      <article class="download">
+        <h3><span data-l="en">Pairwise meta-analysis</span><span data-l="es">Metaanálisis por pares</span></h3>
+        <p data-l="en">Binary and continuous outcomes with meta: random effects, prediction interval, leave-one-out, funnel plot and Egger's test.</p><p data-l="es">Desenlaces binarios y continuos con meta: efectos aleatorios, intervalo de predicción, leave-one-out, funnel plot y prueba de Egger.</p>
+        <a class="btn small" href="assets/r/pairwise_meta_analysis.R" download><span data-l="en">Download .R</span><span data-l="es">Descargar .R</span></a>
+      </article>
+      <article class="download">
+        <h3><span data-l="en">Diagnostic accuracy meta-analysis</span><span data-l="es">Metaanálisis de precisión diagnóstica</span></h3>
+        <p data-l="en">Bivariate model with mada: pooled sensitivity and specificity, SROC curve and forest plots.</p><p data-l="es">Modelo bivariado con mada: sensibilidad y especificidad combinadas, curva SROC y forest plots.</p>
+        <a class="btn small" href="assets/r/dta_meta_analysis.R" download><span data-l="en">Download .R</span><span data-l="es">Descargar .R</span></a>
+      </article>
+      <article class="download">
+        <h3><span data-l="en">Data extraction sheet</span><span data-l="es">Planilla de extracción de datos</span></h3>
+        <p data-l="en">CSV with the columns the pairwise template expects, ready to open in Excel or Google Sheets.</p><p data-l="es">CSV con las columnas que espera la plantilla por pares, listo para abrir en Excel o Google Sheets.</p>
+        <a class="btn small" href="assets/r/extraction_template.csv" download><span data-l="en">Download .csv</span><span data-l="es">Descargar .csv</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="section" data-gh-section>
+  <div class="wrap">
+    <div class="section-head"><h2><span data-l="en">My repositories</span><span data-l="es">Mis repositorios</span></h2><p data-l="en">Public code, loaded live from GitHub.</p><p data-l="es">Código público, cargado en vivo desde GitHub.</p></div>
+    <div class="downloads" id="gh-repos"></div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span data-year>2026</span> Jose Luis Villca Villegas. <span data-l="en">Cochabamba, Bolivia.</span><span data-l="es">Cochabamba, Bolivia.</span></p>
+    <p><span data-l="en">The calculators support education and research; check results before you publish them.</span><span data-l="es">Las calculadoras apoyan la docencia y la investigación; verifica los resultados antes de publicarlos.</span></p>
+    <p><a href="https://orcid.org/0000-0002-0357-5489" target="_blank" rel="noopener me">ORCID</a></p>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-en="Evidence tools | Jose Luis Villca Villegas" data-es="Herramientas de evidencia | Jose Luis Villca Villegas">Evidence tools | Jose Luis Villca Villegas</title>
+<meta name="description" content="Free, bilingual calculators for systematic reviews and meta-analysis: median to mean and SD, combine groups, SD finder, RR/OR/NNT, Hedges&#x27; g, diagnostic accuracy, kappa and sample size.">
+<meta name="author" content="Jose Luis Villca Villegas">
+<meta name="theme-color" content="#1e2b3a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Evidence tools | Jose Luis Villca Villegas">
+<meta property="og:description" content="Free, bilingual calculators for systematic reviews and meta-analysis: median to mean and SD, combine groups, SD finder, RR/OR/NNT, Hedges&#x27; g, diagnostic accuracy, kappa and sample size.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,450;6..72,500&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/config.js"></script>
+<script>
+(function(){var d=document.documentElement,g=function(k){try{return localStorage.getItem(k)}catch(e){return null}},s=function(k,v){try{localStorage.setItem(k,v)}catch(e){}};
+var q=null;try{q=new URLSearchParams(location.search).get('lang')}catch(e){}
+var l=(q==='es'||q==='en')?q:(g('jlv-lang')||(window.SITE_CONFIG&&SITE_CONFIG.defaultLang)||'en');if(q==='es'||q==='en')s('jlv-lang',q);
+d.setAttribute('lang',l);
+var t=g('jlv-theme')||(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');d.setAttribute('data-theme',t);})();
+</script>
+
+</head>
+<body>
+<a class="skip" href="#main"><span data-l="en">Skip to content</span><span data-l="es">Saltar al contenido</span></a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/img/avatar.jpg" alt="" width="34" height="34"><span>Jose Luis Villca Villegas</span></a>
+    <nav id="site-nav" class="nav" data-i18n-attrs="aria-label" aria-label="Main" data-aria-label-en="Main" data-aria-label-es="Principal">
+<a href="index.html"><span data-l="en">Home</span><span data-l="es">Inicio</span></a>
+<a href="about.html"><span data-l="en">About</span><span data-l="es">Sobre mí</span></a>
+<a href="tools.html" aria-current="page"><span data-l="en">Evidence tools</span><span data-l="es">Herramientas</span></a>
+<a href="toolkit.html"><span data-l="en">R toolkit</span><span data-l="es">Kit de R</span></a>
+<a href="projects.html"><span data-l="en">Projects</span><span data-l="es">Proyectos</span></a>
+    </nav>
+    <div class="header-tools">
+      <button type="button" class="lang-switch" aria-pressed="false" aria-label="Cambiar a español" title="English / Español"><span class="opt-en">EN</span><span class="opt-es">ES</span></button>
+      <button type="button" class="icon-btn theme-toggle" data-i18n-attrs="aria-label,title" aria-label="Dark mode" data-aria-label-en="Dark mode" data-aria-label-es="Modo oscuro" title="Dark mode" data-title-en="Dark mode" data-title-es="Modo oscuro"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button>
+      <button type="button" class="icon-btn menu-toggle" aria-expanded="false" aria-controls="site-nav" data-i18n-attrs="aria-label" aria-label="Menu" data-aria-label-en="Menu" data-aria-label-es="Menú"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<header class="page-head">
+  <div class="wrap">
+    <h1><span data-l="en">Evidence tools</span><span data-l="es">Herramientas de evidencia</span></h1>
+    <p class="lede" data-l="en">Free calculators for systematic reviews, meta-analysis and study planning. They run entirely in your browser: nothing you type is sent or stored.</p><p class="lede" data-l="es">Calculadoras gratuitas para revisiones sistemáticas, metaanálisis y planificación de estudios. Funcionan por completo en tu navegador: nada de lo que escribes se envía ni se guarda.</p>
+  </div>
+</header>
+<div class="wrap tools-layout">
+  <nav class="tool-index" data-i18n-attrs="aria-label" aria-label="Tools" data-aria-label-en="Tools" data-aria-label-es="Herramientas"><h2><span data-l="en">Prepare data for meta-analysis</span><span data-l="es">Preparar datos para metaanálisis</span></h2><ul><li><a href="#median"><span data-l="en">Median to mean and SD</span><span data-l="es">Mediana a media y DE</span></a></li><li><a href="#combine"><span data-l="en">Combine subgroups</span><span data-l="es">Combinar subgrupos</span></a></li><li><a href="#sdfinder"><span data-l="en">SD finder</span><span data-l="es">Buscador de DE</span></a></li></ul><h2><span data-l="en">Effect sizes</span><span data-l="es">Tamaños del efecto</span></h2><ul><li><a href="#binary"><span data-l="en">Binary outcomes: RR, OR, NNT</span><span data-l="es">Desenlaces binarios: RR, OR, NNT</span></a></li><li><a href="#smd"><span data-l="en">Continuous outcomes: SMD</span><span data-l="es">Desenlaces continuos: DME</span></a></li></ul><h2><span data-l="en">Diagnostic accuracy</span><span data-l="es">Precisión diagnóstica</span></h2><ul><li><a href="#diagnostic"><span data-l="en">Diagnostic 2×2 calculator</span><span data-l="es">Calculadora diagnóstica 2×2</span></a></li></ul><h2><span data-l="en">Review workflow and planning</span><span data-l="es">Flujo de revisión y planificación</span></h2><ul><li><a href="#kappa"><span data-l="en">Screening agreement (kappa)</span><span data-l="es">Concordancia de cribado (kappa)</span></a></li><li><a href="#samplesize"><span data-l="en">Sample size</span><span data-l="es">Tamaño muestral</span></a></li></ul></nav>
+  <div>
+    <div class="field tool-select"><label for="tool-select"><span data-l="en">Choose a tool</span><span data-l="es">Elige una herramienta</span></label><select id="tool-select"><optgroup label="Prepare data for meta-analysis" data-en="Prepare data for meta-analysis" data-es="Preparar datos para metaanálisis"><option value="median" data-en="Median to mean and SD" data-es="Mediana a media y DE">Median to mean and SD</option><option value="combine" data-en="Combine subgroups" data-es="Combinar subgrupos">Combine subgroups</option><option value="sdfinder" data-en="SD finder" data-es="Buscador de DE">SD finder</option></optgroup><optgroup label="Effect sizes" data-en="Effect sizes" data-es="Tamaños del efecto"><option value="binary" data-en="Binary outcomes: RR, OR, NNT" data-es="Desenlaces binarios: RR, OR, NNT">Binary outcomes: RR, OR, NNT</option><option value="smd" data-en="Continuous outcomes: SMD" data-es="Desenlaces continuos: DME">Continuous outcomes: SMD</option></optgroup><optgroup label="Diagnostic accuracy" data-en="Diagnostic accuracy" data-es="Precisión diagnóstica"><option value="diagnostic" data-en="Diagnostic 2×2 calculator" data-es="Calculadora diagnóstica 2×2">Diagnostic 2×2 calculator</option></optgroup><optgroup label="Review workflow and planning" data-en="Review workflow and planning" data-es="Flujo de revisión y planificación"><option value="kappa" data-en="Screening agreement (kappa)" data-es="Concordancia de cribado (kappa)">Screening agreement (kappa)</option><option value="samplesize" data-en="Sample size" data-es="Tamaño muestral">Sample size</option></optgroup></select></div>
+    
+<section class="tool" id="tool-median" aria-labelledby="h-median">
+  <header><h2 id="h-median"><span data-l="en">Median to mean and SD</span><span data-l="es">Mediana a media y DE</span></h2><p data-l="en">Many trials report a median with the interquartile range or the range. Convert them to a mean and SD so the study can enter a meta-analysis of means.</p><p data-l="es">Muchos ensayos reportan la mediana con el rango intercuartílico o el rango. Conviértelos en media y DE para incluir el estudio en un metaanálisis de medias.</p></header>
+  <div class="panel">
+    <div class="fields">
+      <div class="field"><label for="m-n"><span data-l="en">Sample size (n)</span><span data-l="es">Tamaño muestral (n)</span></label><input type="number" inputmode="decimal" id="m-n" min="3" step="1"><span class="hint"><span data-l="en">Required</span><span data-l="es">Obligatorio</span></span></div>
+      <div class="field"><label for="m-med"><span data-l="en">Median</span><span data-l="es">Mediana</span></label><input type="number" inputmode="decimal" id="m-med" step="any"><span class="hint"><span data-l="en">Required</span><span data-l="es">Obligatorio</span></span></div>
+      <div class="field"><label for="m-q1"><span data-l="en">Q1 (25th percentile)</span><span data-l="es">Q1 (percentil 25)</span></label><input type="number" inputmode="decimal" id="m-q1" step="any"></div>
+      <div class="field"><label for="m-q3"><span data-l="en">Q3 (75th percentile)</span><span data-l="es">Q3 (percentil 75)</span></label><input type="number" inputmode="decimal" id="m-q3" step="any"></div>
+      <div class="field"><label for="m-min"><span data-l="en">Minimum</span><span data-l="es">Mínimo</span></label><input type="number" inputmode="decimal" id="m-min" step="any"></div>
+      <div class="field"><label for="m-max"><span data-l="en">Maximum</span><span data-l="es">Máximo</span></label><input type="number" inputmode="decimal" id="m-max" step="any"></div>
+    </div>
+    <div class="actions">
+  <button type="button" class="btn small ghost" data-example><span data-l="en">Load example</span><span data-l="es">Cargar ejemplo</span></button>
+  <button type="button" class="btn small ghost" data-clear><span data-l="en">Clear</span><span data-l="es">Limpiar</span></button>
+  <button type="button" class="btn small" data-copy><span data-l="en">Copy results</span><span data-l="es">Copiar resultados</span></button>
+</div>
+    <div class="result" id="result-median" aria-live="polite"></div>
+  </div>
+  <details class="method"><summary><span data-l="en">Method and references</span><span data-l="es">Método y referencias</span></summary><p data-l="en">The calculator picks the scenario from what you enter: median with range (S1), with IQR (S2), or with both (S3). The mean uses the optimally weighted estimators of Luo et al.; the SD uses Wan et al. Both are the methods recommended in the Cochrane Handbook for approximately normal data.</p><p data-l="es">La calculadora elige el escenario según lo que ingreses: mediana con rango (S1), con RIC (S2) o con ambos (S3). La media usa los estimadores de ponderación óptima de Luo et al.; la DE usa Wan et al. Ambos son los métodos recomendados en el Manual Cochrane para datos aproximadamente normales.</p>
+    <div class="formula">S2: x̄ ≈ w·(q₁+q₃)/2 + (1−w)·m, w = 0.7 + 0.39/n ; SD ≈ (q₃−q₁)/η(n), η(n) = 2Φ⁻¹[(0.75n−0.125)/(n+0.25)]</div>
+    <div class="formula">S1: x̄ ≈ w·(a+b)/2 + (1−w)·m, w = 4/(4+n^0.75) ; SD ≈ (b−a)/ξ(n), ξ(n) = 2Φ⁻¹[(n−0.375)/(n+0.25)]</div>
+    <ol><li>Luo D, Wan X, Liu J, Tong T. Optimally estimating the sample mean from the sample size, median, mid-range, and/or mid-quartile range. <em>Stat Methods Med Res</em>. 2018;27(6):1785–1805.</li><li>Wan X, Wang W, Liu J, Tong T. Estimating the sample mean and standard deviation from the sample size, median, range and/or interquartile range. <em>BMC Med Res Methodol</em>. 2014;14:135.</li><li>McGrath S, Zhao X, Steele R, et al. Estimating the sample mean and standard deviation from commonly reported quantiles in meta-analysis. <em>Stat Methods Med Res</em>. 2020;29(9):2520–2537.</li></ol></details>
+</section>
+<section class="tool" id="tool-combine" aria-labelledby="h-combine">
+  <header><h2 id="h-combine"><span data-l="en">Combine subgroups</span><span data-l="es">Combinar subgrupos</span></h2><p data-l="en">Merge two or more subgroups (for example, two dose arms or men and women) into one group with a single n, mean and SD.</p><p data-l="es">Une dos o más subgrupos (por ejemplo, dos brazos de dosis, u hombres y mujeres) en un solo grupo con un único n, media y DE.</p></header>
+  <div class="panel">
+    <div class="res-wrap"><table class="groups-table">
+      <thead><tr><th>#</th><th>n</th><th><span data-l="en">Mean</span><span data-l="es">Media</span></th><th><span data-l="en">SD</span><span data-l="es">DE</span></th><th><span class="visually-hidden"><span data-l="en">Remove</span><span data-l="es">Quitar</span></span></th></tr></thead>
+      <tbody id="combine-rows"></tbody>
+    </table></div>
+    <button type="button" class="btn small ghost" id="add-group">+ <span data-l="en">Add group</span><span data-l="es">Agregar grupo</span></button>
+    <div class="actions">
+  <button type="button" class="btn small ghost" data-example><span data-l="en">Load example</span><span data-l="es">Cargar ejemplo</span></button>
+  <button type="button" class="btn small ghost" data-clear><span data-l="en">Clear</span><span data-l="es">Limpiar</span></button>
+  <button type="button" class="btn small" data-copy><span data-l="en">Copy results</span><span data-l="es">Copiar resultados</span></button>
+</div>
+    <div class="result" id="result-combine" aria-live="polite"></div>
+  </div>
+  <details class="method"><summary><span data-l="en">Method and references</span><span data-l="es">Método y referencias</span></summary><p data-l="en">Groups are combined one pair at a time with the exact formula from the Cochrane Handbook, which accounts for both within-group variance and the spread between group means.</p><p data-l="es">Los grupos se combinan de a pares con la fórmula exacta del Manual Cochrane, que considera la varianza dentro de cada grupo y la dispersión entre sus medias.</p>
+    <div class="formula">SD = √{ [(n₁−1)SD₁² + (n₂−1)SD₂² + n₁n₂/(n₁+n₂)·(M₁² + M₂² − 2M₁M₂)] / (n₁+n₂−1) }</div>
+    <ol><li>Higgins JPT, Li T, Deeks JJ (eds). Chapter 6: Choosing effect measures and computing estimates of effect. In: <em>Cochrane Handbook for Systematic Reviews of Interventions</em>. Table 6.5.a.</li></ol></details>
+</section>
+<section class="tool" id="tool-sdfinder" aria-labelledby="h-sdfinder">
+  <header><h2 id="h-sdfinder"><span data-l="en">SD finder</span><span data-l="es">Buscador de DE</span></h2><p data-l="en">Recover a missing standard deviation from a standard error, a confidence interval, a p-value or a t statistic.</p><p data-l="es">Recupera una desviación estándar faltante a partir de un error estándar, un intervalo de confianza, un valor p o un estadístico t.</p></header>
+  <div class="panel">
+    <div class="seg" role="group" data-i18n-attrs="aria-label" aria-label="Source of the SD" data-aria-label-en="Source of the SD" data-aria-label-es="Origen de la DE">
+      <button type="button" data-mode="se" aria-pressed="true"><span data-l="en">From SE</span><span data-l="es">Desde EE</span></button>
+      <button type="button" data-mode="ci" aria-pressed="false"><span data-l="en">From CI of a mean</span><span data-l="es">Desde IC de una media</span></button>
+      <button type="button" data-mode="mdci" aria-pressed="false"><span data-l="en">From CI of a difference</span><span data-l="es">Desde IC de una diferencia</span></button>
+      <button type="button" data-mode="pt" aria-pressed="false"><span data-l="en">From p or t</span><span data-l="es">Desde p o t</span></button>
+    </div>
+    <div class="subform active" data-mode="se"><div class="fields">
+      <div class="field"><label for="sd-se-se"><span data-l="en">Standard error (SE)</span><span data-l="es">Error estándar (EE)</span></label><input type="number" inputmode="decimal" id="sd-se-se" step="any"></div>
+      <div class="field"><label for="sd-se-n"><span data-l="en">Group size (n)</span><span data-l="es">Tamaño del grupo (n)</span></label><input type="number" inputmode="decimal" id="sd-se-n" min="1" step="1"></div>
+    </div></div>
+    <div class="subform" data-mode="ci"><div class="fields">
+      <div class="field"><label for="sd-ci-lo"><span data-l="en">Lower limit</span><span data-l="es">Límite inferior</span></label><input type="number" inputmode="decimal" id="sd-ci-lo" step="any"></div>
+      <div class="field"><label for="sd-ci-hi"><span data-l="en">Upper limit</span><span data-l="es">Límite superior</span></label><input type="number" inputmode="decimal" id="sd-ci-hi" step="any"></div>
+      <div class="field"><label for="sd-ci-n"><span data-l="en">Group size (n)</span><span data-l="es">Tamaño del grupo (n)</span></label><input type="number" inputmode="decimal" id="sd-ci-n" min="2" step="1"></div>
+      <div class="field"><label for="sd-ci-level"><span data-l="en">Confidence level</span><span data-l="es">Nivel de confianza</span></label><select id="sd-ci-level"><option value="0.90">90%</option><option value="0.95" selected>95%</option><option value="0.99">99%</option></select></div>
+    </div></div>
+    <div class="subform" data-mode="mdci"><div class="fields">
+      <div class="field"><label for="sd-md-lo"><span data-l="en">Lower limit of MD</span><span data-l="es">Límite inferior de la DM</span></label><input type="number" inputmode="decimal" id="sd-md-lo" step="any"></div>
+      <div class="field"><label for="sd-md-hi"><span data-l="en">Upper limit of MD</span><span data-l="es">Límite superior de la DM</span></label><input type="number" inputmode="decimal" id="sd-md-hi" step="any"></div>
+      <div class="field"><label for="sd-md-n1"><span data-l="en">n, group 1</span><span data-l="es">n, grupo 1</span></label><input type="number" inputmode="decimal" id="sd-md-n1" min="2" step="1"></div>
+      <div class="field"><label for="sd-md-n2"><span data-l="en">n, group 2</span><span data-l="es">n, grupo 2</span></label><input type="number" inputmode="decimal" id="sd-md-n2" min="2" step="1"></div>
+      <div class="field"><label for="sd-md-level"><span data-l="en">Confidence level</span><span data-l="es">Nivel de confianza</span></label><select id="sd-md-level"><option value="0.90">90%</option><option value="0.95" selected>95%</option><option value="0.99">99%</option></select></div>
+    </div></div>
+    <div class="subform" data-mode="pt"><div class="fields">
+      <div class="field"><label for="sd-pt-md"><span data-l="en">Mean difference</span><span data-l="es">Diferencia de medias</span></label><input type="number" inputmode="decimal" id="sd-pt-md" step="any"></div>
+      <div class="field"><label for="sd-pt-n1"><span data-l="en">n, group 1</span><span data-l="es">n, grupo 1</span></label><input type="number" inputmode="decimal" id="sd-pt-n1" min="2" step="1"></div>
+      <div class="field"><label for="sd-pt-n2"><span data-l="en">n, group 2</span><span data-l="es">n, grupo 2</span></label><input type="number" inputmode="decimal" id="sd-pt-n2" min="2" step="1"></div>
+      <div class="field"><label for="sd-pt-kind"><span data-l="en">I have</span><span data-l="es">Tengo</span></label><select id="sd-pt-kind"><option value="p" selected>p-value / valor p</option><option value="t">t statistic / estadístico t</option></select></div>
+      <div class="field"><label for="sd-pt-val"><span data-l="en">Value</span><span data-l="es">Valor</span></label><input type="number" inputmode="decimal" id="sd-pt-val" step="any"><span class="hint"><span data-l="en">Exact p (e.g. 0.021)</span><span data-l="es">p exacto (ej. 0,021)</span></span></div>
+    </div></div>
+    <div class="actions">
+  <button type="button" class="btn small ghost" data-example><span data-l="en">Load example</span><span data-l="es">Cargar ejemplo</span></button>
+  <button type="button" class="btn small ghost" data-clear><span data-l="en">Clear</span><span data-l="es">Limpiar</span></button>
+  <button type="button" class="btn small" data-copy><span data-l="en">Copy results</span><span data-l="es">Copiar resultados</span></button>
+</div>
+    <div class="result" id="result-sdfinder" aria-live="polite"></div>
+  </div>
+  <details class="method"><summary><span data-l="en">Method and references</span><span data-l="es">Método y referencias</span></summary><p data-l="en">All four routes follow section 6.5.2 of the Cochrane Handbook. Confidence intervals and p-values are converted with the t distribution, which matters for small trials.</p><p data-l="es">Las cuatro vías siguen la sección 6.5.2 del Manual Cochrane. Los intervalos de confianza y los valores p se convierten con la distribución t, lo que importa en ensayos pequeños.</p>
+    <div class="formula">SD = SE·√n ; SD = √n·(U − L) / (2·t₁₋α/₂, n−1) ; SD = SE_MD / √(1/n₁ + 1/n₂)</div>
+    <ol><li>Higgins JPT, Li T, Deeks JJ (eds). Chapter 6, section 6.5.2: Extracting estimates of effect directly. In: <em>Cochrane Handbook for Systematic Reviews of Interventions</em>.</li></ol></details>
+</section>
+<section class="tool" id="tool-binary" aria-labelledby="h-binary">
+  <header><h2 id="h-binary"><span data-l="en">Binary outcomes: RR, OR, NNT</span><span data-l="es">Desenlaces binarios: RR, OR, NNT</span></h2><p data-l="en">Enter events and totals per arm to get the risk ratio, odds ratio, risk difference and number needed to treat, with 95% confidence intervals.</p><p data-l="es">Ingresa eventos y totales por brazo para obtener razón de riesgos, odds ratio, diferencia de riesgos y número necesario a tratar, con intervalos de confianza del 95%.</p></header>
+  <div class="panel">
+    <div class="fields">
+      <div class="field"><label for="bin-e1"><span data-l="en">Events, intervention</span><span data-l="es">Eventos, intervención</span></label><input type="number" inputmode="decimal" id="bin-e1" min="0" step="1"></div>
+      <div class="field"><label for="bin-n1"><span data-l="en">Total, intervention</span><span data-l="es">Total, intervención</span></label><input type="number" inputmode="decimal" id="bin-n1" min="1" step="1"></div>
+      <div class="field"><label for="bin-e2"><span data-l="en">Events, control</span><span data-l="es">Eventos, control</span></label><input type="number" inputmode="decimal" id="bin-e2" min="0" step="1"></div>
+      <div class="field"><label for="bin-n2"><span data-l="en">Total, control</span><span data-l="es">Total, control</span></label><input type="number" inputmode="decimal" id="bin-n2" min="1" step="1"></div>
+    </div>
+    <div class="actions">
+  <button type="button" class="btn small ghost" data-example><span data-l="en">Load example</span><span data-l="es">Cargar ejemplo</span></button>
+  <button type="button" class="btn small ghost" data-clear><span data-l="en">Clear</span><span data-l="es">Limpiar</span></button>
+  <button type="button" class="btn small" data-copy><span data-l="en">Copy results</span><span data-l="es">Copiar resultados</span></button>
+</div>
+    <div class="result" id="result-binary" aria-live="polite"></div>
+  </div>
+  <details class="method"><summary><span data-l="en">Method and references</span><span data-l="es">Método y referencias</span></summary><p data-l="en">RR and OR use the log method with Wald intervals; the risk difference uses the normal approximation. The NNT interval inverts the limits of the risk difference and is not reported when that interval includes zero, as Altman recommends.</p><p data-l="es">RR y OR usan el método logarítmico con intervalos de Wald; la diferencia de riesgos usa la aproximación normal. El IC del NNT invierte los límites de la diferencia de riesgos y no se informa cuando ese intervalo incluye el cero, como recomienda Altman.</p>
+    <div class="formula">SE[ln RR] = √(1/a − 1/n₁ + 1/c − 1/n₂) ; SE[ln OR] = √(1/a + 1/b + 1/c + 1/d)</div>
+    <ol><li>Higgins JPT, Li T, Deeks JJ (eds). Chapter 6. In: <em>Cochrane Handbook for Systematic Reviews of Interventions</em>.</li><li>Altman DG. Confidence intervals for the number needed to treat. <em>BMJ</em>. 1998;317:1309–1312.</li></ol></details>
+</section>
+<section class="tool" id="tool-smd" aria-labelledby="h-smd">
+  <header><h2 id="h-smd"><span data-l="en">Continuous outcomes: SMD</span><span data-l="es">Desenlaces continuos: DME</span></h2><p data-l="en">Compute Hedges' g when trials measure the same outcome on different scales, and convert between odds ratios and standardised mean differences.</p><p data-l="es">Calcula la g de Hedges cuando los ensayos miden el mismo desenlace con escalas distintas, y convierte entre odds ratio y diferencia de medias estandarizada.</p></header>
+  <div class="panel">
+    <div class="fields">
+      <div class="field"><label for="smd-m1"><span data-l="en">Mean, group 1</span><span data-l="es">Media, grupo 1</span></label><input type="number" inputmode="decimal" id="smd-m1" step="any"></div>
+      <div class="field"><label for="smd-s1"><span data-l="en">SD, group 1</span><span data-l="es">DE, grupo 1</span></label><input type="number" inputmode="decimal" id="smd-s1" min="0" step="any"></div>
+      <div class="field"><label for="smd-n1"><span data-l="en">n, group 1</span><span data-l="es">n, grupo 1</span></label><input type="number" inputmode="decimal" id="smd-n1" min="2" step="1"></div>
+      <div class="field"><label for="smd-m2"><span data-l="en">Mean, group 2</span><span data-l="es">Media, grupo 2</span></label><input type="number" inputmode="decimal" id="smd-m2" step="any"></div>
+      <div class="field"><label for="smd-s2"><span data-l="en">SD, group 2</span><span data-l="es">DE, grupo 2</span></label><input type="number" inputmode="decimal" id="smd-s2" min="0" step="any"></div>
+      <div class="field"><label for="smd-n2"><span data-l="en">n, group 2</span><span data-l="es">n, grupo 2</span></label><input type="number" inputmode="decimal" id="smd-n2" min="2" step="1"></div>
+    </div>
+    <div class="actions">
+  <button type="button" class="btn small ghost" data-example><span data-l="en">Load example</span><span data-l="es">Cargar ejemplo</span></button>
+  <button type="button" class="btn small ghost" data-clear><span data-l="en">Clear</span><span data-l="es">Limpiar</span></button>
+  <button type="button" class="btn small" data-copy><span data-l="en">Copy results</span><span data-l="es">Copiar resultados</span></button>
+</div>
+    <div class="result" id="smd-result" aria-live="polite"></div>
+    <h3 style="margin-top:1.75rem;font-size:1.2rem"><span data-l="en">Convert OR and SMD</span><span data-l="es">Convertir OR y DME</span></h3>
+    <div class="fields">
+      <div class="field"><label for="conv-or"><span data-l="en">Odds ratio</span><span data-l="es">Odds ratio</span></label><input type="number" inputmode="decimal" id="conv-or" min="0" step="any"></div>
+      <div class="field"><label for="conv-d"><span data-l="en">SMD</span><span data-l="es">DME</span></label><input type="number" inputmode="decimal" id="conv-d" step="any"></div>
+    </div>
+    <div class="result" id="conv-result" aria-live="polite"></div>
+  </div>
+  <details class="method"><summary><span data-l="en">Method and references</span><span data-l="es">Método y referencias</span></summary>
+    <p data-l="en">Hedges' g applies the small-sample correction J to Cohen's d computed with the pooled SD. The OR to SMD conversion assumes an underlying logistic distribution (Chinn).</p><p data-l="es">La g de Hedges aplica la corrección J para muestras pequeñas a la d de Cohen calculada con la DE combinada. La conversión OR a DME asume una distribución logística subyacente (Chinn).</p>
+    <div class="formula">g = J·d, J = 1 − 3/(4(n₁+n₂−2) − 1) ; Var(d) = (n₁+n₂)/(n₁n₂) + d²/(2(n₁+n₂)) ; SMD = ln(OR)·√3/π</div>
+    <ol><li>Borenstein M, Hedges LV, Higgins JPT, Rothstein HR. <em>Introduction to Meta-Analysis</em>. Wiley; 2009.</li><li>Chinn S. A simple method for converting an odds ratio to effect size for use in meta-analysis. <em>Stat Med</em>. 2000;19(22):3127–3131.</li></ol>
+  </details>
+</section>
+<section class="tool" id="tool-diagnostic" aria-labelledby="h-diagnostic">
+  <header><h2 id="h-diagnostic"><span data-l="en">Diagnostic 2×2 calculator</span><span data-l="es">Calculadora diagnóstica 2×2</span></h2><p data-l="en">Enter the 2×2 table of an index test against the reference standard. Add a pre-test probability to see how a result changes it.</p><p data-l="es">Ingresa la tabla 2×2 de la prueba índice frente al estándar de referencia. Agrega una probabilidad preprueba para ver cómo la modifica el resultado.</p></header>
+  <div class="panel">
+    <div class="res-wrap"><table class="twobytwo">
+      <thead><tr><th></th><th scope="col"><span data-l="en">Disease present</span><span data-l="es">Enfermedad presente</span></th><th scope="col"><span data-l="en">Disease absent</span><span data-l="es">Enfermedad ausente</span></th></tr></thead>
+      <tbody>
+        <tr><th scope="row"><span data-l="en">Test positive</span><span data-l="es">Prueba positiva</span></th><td><input type="number" inputmode="numeric" min="0" step="1" id="dx-tp" aria-label="True positives"><span class="cell-note"><span data-l="en">True positives</span><span data-l="es">Verdaderos positivos</span></span></td><td><input type="number" inputmode="numeric" min="0" step="1" id="dx-fp" aria-label="False positives"><span class="cell-note"><span data-l="en">False positives</span><span data-l="es">Falsos positivos</span></span></td></tr>
+        <tr><th scope="row"><span data-l="en">Test negative</span><span data-l="es">Prueba negativa</span></th><td><input type="number" inputmode="numeric" min="0" step="1" id="dx-fn" aria-label="False negatives"><span class="cell-note"><span data-l="en">False negatives</span><span data-l="es">Falsos negativos</span></span></td><td><input type="number" inputmode="numeric" min="0" step="1" id="dx-tn" aria-label="True negatives"><span class="cell-note"><span data-l="en">True negatives</span><span data-l="es">Verdaderos negativos</span></span></td></tr>
+      </tbody>
+    </table></div>
+    <div class="fields" style="margin-top:1rem"><div class="field"><label for="dx-pre"><span data-l="en">Pre-test probability (%)</span><span data-l="es">Probabilidad preprueba (%)</span></label><input type="number" inputmode="decimal" id="dx-pre" min="0" max="100" step="any"><span class="hint"><span data-l="en">Optional; defaults to sample prevalence</span><span data-l="es">Opcional; por defecto, la prevalencia muestral</span></span></div></div>
+    <div class="actions">
+  <button type="button" class="btn small ghost" data-example><span data-l="en">Load example</span><span data-l="es">Cargar ejemplo</span></button>
+  <button type="button" class="btn small ghost" data-clear><span data-l="en">Clear</span><span data-l="es">Limpiar</span></button>
+  <button type="button" class="btn small" data-copy><span data-l="en">Copy results</span><span data-l="es">Copiar resultados</span></button>
+</div>
+    <div class="result" id="result-diagnostic" aria-live="polite"></div>
+  </div>
+  <details class="method"><summary><span data-l="en">Method and references</span><span data-l="es">Método y referencias</span></summary><p data-l="en">Proportions use Wilson score intervals, which behave well near 0% and 100%. Likelihood ratios and the diagnostic odds ratio use log-scale intervals, adding 0.5 to every cell if any cell is zero. Post-test probabilities apply Bayes' theorem in odds form, as in the Fagan nomogram.</p><p data-l="es">Las proporciones usan intervalos de Wilson, que se comportan bien cerca de 0% y 100%. Las razones de verosimilitud y la odds ratio diagnóstica usan intervalos en escala logarítmica, sumando 0,5 a todas las celdas si alguna es cero. Las probabilidades posprueba aplican el teorema de Bayes en forma de odds, como el nomograma de Fagan.</p>
+    <div class="formula">LR+ = Se/(1−Sp) ; LR− = (1−Se)/Sp ; odds post = odds pre × LR</div>
+    <ol><li>Wilson EB. Probable inference, the law of succession, and statistical inference. <em>J Am Stat Assoc</em>. 1927;22:209–212.</li><li>Simel DL, Samsa GP, Matchar DB. Likelihood ratios with confidence: sample size estimation for diagnostic test studies. <em>J Clin Epidemiol</em>. 1991;44(8):763–770.</li><li>Glas AS, Lijmer JG, Prins MH, et al. The diagnostic odds ratio: a single indicator of test performance. <em>J Clin Epidemiol</em>. 2003;56(11):1129–1135.</li></ol></details>
+</section>
+<section class="tool" id="tool-kappa" aria-labelledby="h-kappa">
+  <header><h2 id="h-kappa"><span data-l="en">Screening agreement (kappa)</span><span data-l="es">Concordancia de cribado (kappa)</span></h2><p data-l="en">Check how well two reviewers agree when screening titles and abstracts, and how many conflicts need resolving.</p><p data-l="es">Verifica cuánto coinciden dos revisores al cribar títulos y resúmenes, y cuántos conflictos quedan por resolver.</p></header>
+  <div class="panel">
+    <div class="res-wrap"><table class="twobytwo">
+      <thead><tr><th></th><th scope="col"><span data-l="en">Reviewer 2: include</span><span data-l="es">Revisor 2: incluir</span></th><th scope="col"><span data-l="en">Reviewer 2: exclude</span><span data-l="es">Revisor 2: excluir</span></th></tr></thead>
+      <tbody>
+        <tr><th scope="row"><span data-l="en">Reviewer 1: include</span><span data-l="es">Revisor 1: incluir</span></th><td><input type="number" inputmode="numeric" min="0" step="1" id="k-a" aria-label="Both include"><span class="cell-note"><span data-l="en">Both include</span><span data-l="es">Ambos incluyen</span></span></td><td><input type="number" inputmode="numeric" min="0" step="1" id="k-b" aria-label="Only reviewer 1"><span class="cell-note"><span data-l="en">Only reviewer 1</span><span data-l="es">Solo revisor 1</span></span></td></tr>
+        <tr><th scope="row"><span data-l="en">Reviewer 1: exclude</span><span data-l="es">Revisor 1: excluir</span></th><td><input type="number" inputmode="numeric" min="0" step="1" id="k-c" aria-label="Only reviewer 2"><span class="cell-note"><span data-l="en">Only reviewer 2</span><span data-l="es">Solo revisor 2</span></span></td><td><input type="number" inputmode="numeric" min="0" step="1" id="k-d" aria-label="Both exclude"><span class="cell-note"><span data-l="en">Both exclude</span><span data-l="es">Ambos excluyen</span></span></td></tr>
+      </tbody>
+    </table></div>
+    <div class="actions">
+  <button type="button" class="btn small ghost" data-example><span data-l="en">Load example</span><span data-l="es">Cargar ejemplo</span></button>
+  <button type="button" class="btn small ghost" data-clear><span data-l="en">Clear</span><span data-l="es">Limpiar</span></button>
+  <button type="button" class="btn small" data-copy><span data-l="en">Copy results</span><span data-l="es">Copiar resultados</span></button>
+</div>
+    <div class="result" id="result-kappa" aria-live="polite"></div>
+  </div>
+  <details class="method"><summary><span data-l="en">Method and references</span><span data-l="es">Método y referencias</span></summary><p data-l="en">Cohen's kappa corrects observed agreement for agreement expected by chance. The confidence interval uses the large-sample standard error. PABAK (prevalence-adjusted, bias-adjusted kappa) is shown because screening data usually have very few includes.</p><p data-l="es">El kappa de Cohen corrige la concordancia observada por la esperada por azar. El intervalo de confianza usa el error estándar para muestras grandes. Se muestra el PABAK (kappa ajustado por prevalencia y sesgo) porque en el cribado suele haber muy pocos incluidos.</p>
+    <div class="formula">κ = (pₒ − pₑ)/(1 − pₑ) ; PABAK = 2pₒ − 1</div>
+    <ol><li>Cohen J. A coefficient of agreement for nominal scales. <em>Educ Psychol Meas</em>. 1960;20:37–46.</li><li>Landis JR, Koch GG. The measurement of observer agreement for categorical data. <em>Biometrics</em>. 1977;33:159–174.</li><li>Byrt T, Bishop J, Carlin JB. Bias, prevalence and kappa. <em>J Clin Epidemiol</em>. 1993;46(5):423–429.</li></ol></details>
+</section>
+<section class="tool" id="tool-samplesize" aria-labelledby="h-samplesize">
+  <header><h2 id="h-samplesize"><span data-l="en">Sample size</span><span data-l="es">Tamaño muestral</span></h2><p data-l="en">Plan a thesis or a study: estimate a prevalence with a given precision, or compare two proportions or two means.</p><p data-l="es">Planifica una tesis o un estudio: estima una prevalencia con cierta precisión, o compara dos proporciones o dos medias.</p></header>
+  <div class="panel">
+    <div class="seg" role="group" data-i18n-attrs="aria-label" aria-label="Study design" data-aria-label-en="Study design" data-aria-label-es="Diseño del estudio">
+      <button type="button" data-mode="prop" aria-pressed="true"><span data-l="en">Estimate a proportion</span><span data-l="es">Estimar una proporción</span></button>
+      <button type="button" data-mode="twoprop" aria-pressed="false"><span data-l="en">Compare two proportions</span><span data-l="es">Comparar dos proporciones</span></button>
+      <button type="button" data-mode="twomeans" aria-pressed="false"><span data-l="en">Compare two means</span><span data-l="es">Comparar dos medias</span></button>
+    </div>
+    <div class="subform active" data-mode="prop"><div class="fields">
+      <div class="field"><label for="ss-p"><span data-l="en">Expected proportion (%)</span><span data-l="es">Proporción esperada (%)</span></label><input type="number" inputmode="decimal" id="ss-p" min="0" max="100" step="any"><span class="hint"><span data-l="en">Use 50% if unknown</span><span data-l="es">Usa 50% si se desconoce</span></span></div>
+      <div class="field"><label for="ss-d"><span data-l="en">Precision, ± (%)</span><span data-l="es">Precisión, ± (%)</span></label><input type="number" inputmode="decimal" id="ss-d" min="0" max="100" step="any"><span class="hint"><span data-l="en">Absolute margin of error</span><span data-l="es">Margen de error absoluto</span></span></div>
+      <div class="field"><label for="ss-conf"><span data-l="en">Confidence level</span><span data-l="es">Nivel de confianza</span></label><select id="ss-conf"><option value="0.90">90%</option><option value="0.95" selected>95%</option><option value="0.99">99%</option></select></div>
+      <div class="field"><label for="ss-N"><span data-l="en">Population size</span><span data-l="es">Tamaño de la población</span></label><input type="number" inputmode="decimal" id="ss-N" min="1" step="1"><span class="hint"><span data-l="en">Optional</span><span data-l="es">Opcional</span></span></div>
+      <div class="field"><label for="ss-deff"><span data-l="en">Design effect</span><span data-l="es">Efecto de diseño</span></label><input type="number" inputmode="decimal" id="ss-deff" min="1" step="any"><span class="hint"><span data-l="en">1 for simple random sampling</span><span data-l="es">1 para muestreo aleatorio simple</span></span></div>
+      <div class="field"><label for="ss-loss"><span data-l="en">Expected losses (%)</span><span data-l="es">Pérdidas esperadas (%)</span></label><input type="number" inputmode="decimal" id="ss-loss" min="0" max="99" step="any"></div>
+    </div></div>
+    <div class="subform" data-mode="twoprop"><div class="fields">
+      <div class="field"><label for="ss2-p1"><span data-l="en">Proportion, group 1 (%)</span><span data-l="es">Proporción, grupo 1 (%)</span></label><input type="number" inputmode="decimal" id="ss2-p1" min="0" max="100" step="any"></div>
+      <div class="field"><label for="ss2-p2"><span data-l="en">Proportion, group 2 (%)</span><span data-l="es">Proporción, grupo 2 (%)</span></label><input type="number" inputmode="decimal" id="ss2-p2" min="0" max="100" step="any"></div>
+      <div class="field"><label for="ss2-alpha"><span data-l="en">Significance (α)</span><span data-l="es">Significancia (α)</span></label><select id="ss2-alpha"><option value="0.05" selected>0.05</option><option value="0.01">0.01</option><option value="0.1">0.10</option></select></div>
+      <div class="field"><label for="ss2-power"><span data-l="en">Power</span><span data-l="es">Potencia</span></label><select id="ss2-power"><option value="0.8" selected>80%</option><option value="0.85">85%</option><option value="0.9">90%</option><option value="0.95">95%</option></select></div>
+      <div class="field"><label for="ss2-k"><span data-l="en">Ratio n₂/n₁</span><span data-l="es">Razón n₂/n₁</span></label><input type="number" inputmode="decimal" id="ss2-k" min="0.1" step="any"><span class="hint"><span data-l="en">1 for equal groups</span><span data-l="es">1 para grupos iguales</span></span></div>
+      <div class="field"><label for="ss2-loss"><span data-l="en">Expected losses (%)</span><span data-l="es">Pérdidas esperadas (%)</span></label><input type="number" inputmode="decimal" id="ss2-loss" min="0" max="99" step="any"></div>
+    </div></div>
+    <div class="subform" data-mode="twomeans"><div class="fields">
+      <div class="field"><label for="ssm-sd"><span data-l="en">Expected SD</span><span data-l="es">DE esperada</span></label><input type="number" inputmode="decimal" id="ssm-sd" min="0" step="any"></div>
+      <div class="field"><label for="ssm-delta"><span data-l="en">Difference to detect</span><span data-l="es">Diferencia a detectar</span></label><input type="number" inputmode="decimal" id="ssm-delta" step="any"><span class="hint"><span data-l="en">Smallest relevant difference</span><span data-l="es">Mínima diferencia relevante</span></span></div>
+      <div class="field"><label for="ssm-alpha"><span data-l="en">Significance (α)</span><span data-l="es">Significancia (α)</span></label><select id="ssm-alpha"><option value="0.05" selected>0.05</option><option value="0.01">0.01</option><option value="0.1">0.10</option></select></div>
+      <div class="field"><label for="ssm-power"><span data-l="en">Power</span><span data-l="es">Potencia</span></label><select id="ssm-power"><option value="0.8" selected>80%</option><option value="0.85">85%</option><option value="0.9">90%</option><option value="0.95">95%</option></select></div>
+      <div class="field"><label for="ssm-k"><span data-l="en">Ratio n₂/n₁</span><span data-l="es">Razón n₂/n₁</span></label><input type="number" inputmode="decimal" id="ssm-k" min="0.1" step="any"><span class="hint"><span data-l="en">1 for equal groups</span><span data-l="es">1 para grupos iguales</span></span></div>
+      <div class="field"><label for="ssm-loss"><span data-l="en">Expected losses (%)</span><span data-l="es">Pérdidas esperadas (%)</span></label><input type="number" inputmode="decimal" id="ssm-loss" min="0" max="99" step="any"></div>
+    </div></div>
+    <div class="actions">
+  <button type="button" class="btn small ghost" data-example><span data-l="en">Load example</span><span data-l="es">Cargar ejemplo</span></button>
+  <button type="button" class="btn small ghost" data-clear><span data-l="en">Clear</span><span data-l="es">Limpiar</span></button>
+  <button type="button" class="btn small" data-copy><span data-l="en">Copy results</span><span data-l="es">Copiar resultados</span></button>
+</div>
+    <div class="result" id="result-samplesize" aria-live="polite"></div>
+  </div>
+  <details class="method"><summary><span data-l="en">Method and references</span><span data-l="es">Método y referencias</span></summary><p data-l="en">Single proportion: normal-approximation formula with optional finite-population correction and design effect. Two proportions: the formula without continuity correction (Fleiss). Two means: the normal-approximation formula for a two-sided test. All results are rounded up and then inflated for expected losses.</p><p data-l="es">Una proporción: fórmula de aproximación normal con corrección opcional por población finita y efecto de diseño. Dos proporciones: fórmula sin corrección por continuidad (Fleiss). Dos medias: fórmula de aproximación normal para una prueba bilateral. Todos los resultados se redondean hacia arriba y luego se ajustan por pérdidas esperadas.</p>
+    <div class="formula">n = z²·p(1−p)/d² ; n₁ = (1 + 1/k)·σ²·(z₁₋α/₂ + z₁₋β)² / Δ²</div>
+    <ol><li>Lwanga SK, Lemeshow S. <em>Sample Size Determination in Health Studies: A Practical Manual</em>. World Health Organization; 1991.</li><li>Fleiss JL, Levin B, Paik MC. <em>Statistical Methods for Rates and Proportions</em>. 3rd ed. Wiley; 2003.</li><li>Chow SC, Shao J, Wang H, Lokhnygina Y. <em>Sample Size Calculations in Clinical Research</em>. 3rd ed. Chapman & Hall/CRC; 2017.</li></ol></details>
+</section>
+  </div>
+</div>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span data-year>2026</span> Jose Luis Villca Villegas. <span data-l="en">Cochabamba, Bolivia.</span><span data-l="es">Cochabamba, Bolivia.</span></p>
+    <p><span data-l="en">The calculators support education and research; check results before you publish them.</span><span data-l="es">Las calculadoras apoyan la docencia y la investigación; verifica los resultados antes de publicarlos.</span></p>
+    <p><a href="https://orcid.org/0000-0002-0357-5489" target="_blank" rel="noopener me">ORCID</a></p>
+  </div>
+</footer>
+<script src="assets/js/stats.js" defer></script>
+<script src="assets/js/tools.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
