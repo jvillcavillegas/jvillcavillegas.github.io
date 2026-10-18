@@ -13,8 +13,8 @@ window.SITE_CONFIG = {
   emailDomain: "gmail.com",
 
   // Profile URLs (full https:// links). Empty = hidden.
-  linkedin: "",        // e.g. "https://www.linkedin.com/in/your-handle/"
-  scholar: "",         // e.g. "https://scholar.google.com/citations?user=XXXX"
+  linkedin: "https://www.linkedin.com/in/jose-luis-villca-villegas/",        // e.g. "https://www.linkedin.com/in/your-handle/"
+  scholar: "https://scholar.google.com/citations?user=o2EtrzoAAAAJ&hl=es",         // e.g. "https://scholar.google.com/citations?user=XXXX"
   researchgate: "",    // e.g. "https://www.researchgate.net/profile/Your-Name"
   github: "",          // GitHub username only, e.g. "jlvillca" — also lists your public repos on the R toolkit page
 
